@@ -1,0 +1,74 @@
+body {
+  background-color: #c1aba6;
+}
+.logo {
+  height: 4rem;
+  width: 4rem;
+}
+.navbar-brand {
+  font-size: 2rem;
+  color: white;
+}
+.nav {
+  background-color: #533b4d;
+}
+.navbar {
+  margin-left: 5rem;
+}
+
+.form-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem;
+}
+.btn-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1rem;
+}
+.form-input {
+  height: 2.5rem;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-align: center;
+}
+.meme-display {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.meme-image {
+  max-width: 50%;
+}
+.meme-text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 5px 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+.top {
+  top: 0;
+}
+.bottom {
+  bottom: 0;
+}
+label {
+  padding: 1rem;
+  font-family: impact, sans-serif;
+  font-size: 20px;
+}
