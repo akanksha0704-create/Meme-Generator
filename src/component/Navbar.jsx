@@ -7,7 +7,7 @@ function Navbar() {
         <div className='col-md-12 nav'>
           <nav className='navbar'>
             <a className='navbar-brand' href='#'>
-              <img src='/logo.png' className=' logo' alt='' />
+              <img src='logo.png' className=' logo' alt='' />
               Meme Generator
             </a>
           </nav>
